@@ -103,5 +103,6 @@ See `evaluation/baseline_results.md` for limitations and detailed results. Costs
 - Python custom components
 - Langfuse
 - CSV catalog and CRM sample data
-## Technology
+- 
+## Author
 Prasanth Rasam
