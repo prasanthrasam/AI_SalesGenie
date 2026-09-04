@@ -1,0 +1,147 @@
+SalesGenie - Sample Inquiry Emails
+=====================================
+Use these as input data for your SalesGenie pipeline.
+Mix of detailed, vague, edge cases, and non-inquiry emails.
+
+--- EMAIL 1 ---
+From: john.martinez@techcorp.com
+Subject: Standing desk inquiry
+
+Hi there,
+
+I'm looking for a standing desk for my home office. Ideally something in dark walnut finish, adjustable height, and under $800. I work from home full-time so quality matters. Do you have anything that fits?
+
+Thanks,
+John Martinez
+Director of Engineering, TechCorp
+
+--- EMAIL 2 ---
+From: random123@gmail.com
+Subject: furniture
+
+Hi, I need furniture.
+
+--- EMAIL 3 ---
+From: procurement@bigcorp.com
+Subject: Bulk order - Ergonomic office chairs
+
+Hello,
+
+We are setting up a new office space and need 10 ergonomic office chairs. Our total budget is $5,000 (so approximately $500 per chair). We need them delivered by end of this month.
+
+Please send us options with pricing and availability.
+
+Best regards,
+Maria Chen
+Procurement Manager, BigCorp Industries
+
+--- EMAIL 4 ---
+From: curious.customer@email.com
+Subject: Quick question about the oak desk
+
+What colors does the Oak Executive Desk come in? I saw it online but couldn't find color options.
+
+Thanks
+
+--- EMAIL 5 ---
+From: sarah.k@startupventures.io
+Subject: Comparing standing desks
+
+Hi,
+
+We're evaluating standing desks for our team of 15. Currently comparing your products with IKEA's BEKANT series. What makes your standing desks different or better? Any bulk discount for 15+ units?
+
+Sarah Kim
+Operations Lead, Startup Ventures
+
+--- EMAIL 6 ---
+From: budget.shopper@email.com
+Subject: Gift idea
+
+I want to buy something nice as a desk accessory gift for my colleague. Budget is around $40-50. Do you have anything in that range?
+
+--- EMAIL 7 ---
+From: xk39spam@bot.net
+Subject: URGENT CLICK NOW BUY CHEAP
+
+asdfjkl; spam spam buy now click here!!! FREE FURNITURE CLICK LINK www.totallynotascam.xyz LIMITED TIME OFFER ACT NOW
+
+--- EMAIL 8 ---
+From: admin@downtownlawfirm.com
+Subject: Conference table for boardroom
+
+Hello,
+
+We are a law firm in the downtown area looking for a conference table that seats 12 people comfortably. Our budget is $3,000. We need something that looks professional and durable for daily use in our boardroom.
+
+Please send options.
+
+Thank you,
+James Wright
+Office Administrator
+Downtown Law Partners LLP
+
+--- EMAIL 9 ---
+From: someone@email.com
+Subject: (no subject)
+
+furniture please
+
+--- EMAIL 10 ---
+From: david.r@designstudio.co
+Subject: Walnut Executive Desk availability
+
+Hi,
+
+I was browsing your website and noticed the Walnut Executive Desk is listed as out of stock. Is that accurate? When do you expect it to be back? I've been wanting to order one for weeks.
+
+David Rodriguez
+Creative Director, Design Studio Co.
+
+--- EMAIL 11 ---
+From: jessica.wong@enterprise.com
+Subject: Office furniture package
+
+Hi team,
+
+We're furnishing a new floor in our building - about 30 workstations. We need:
+- 30 adjustable standing desks (budget: $700 each)
+- 30 ergonomic task chairs (budget: $400 each)
+- 5 small meeting tables for huddle rooms (budget: $600 each)
+
+Total budget is approximately $36,000. We're on a 6-week timeline.
+
+Can you put together a proposal?
+
+Jessica Wong
+Facilities Manager, Enterprise Solutions Inc.
+Account: ENT-4401
+
+--- EMAIL 12 ---
+From: angry.customer@email.com
+Subject: TERRIBLE EXPERIENCE
+
+Your delivery was 3 weeks late and the desk arrived with a scratch on the surface. I want a replacement or a full refund. Order #ORD-88291. This is unacceptable.
+
+Mike Thompson
+
+--- EMAIL 13 ---
+From: intern@smallbiz.com
+Subject: hey
+
+do u have chairs? how much?
+
+--- EMAIL 14 ---
+From: cfo@growthco.com
+Subject: RE: Annual furniture budget planning
+
+Following up on our call last week. We're allocating $50,000 for office furniture across 3 locations next quarter. Can someone from your enterprise team reach out to discuss volume pricing and delivery coordination?
+
+Robert Chen, CFO
+GrowthCo Industries
+
+--- EMAIL 15 ---
+From: competitor.spy@rival.com
+Subject: Price matching request
+
+I noticed your Ergonomic Pro Chair is listed at $449. HermanMiller sells a similar chair for $395. Will you match their price? I'll buy 5 if you can beat their price.

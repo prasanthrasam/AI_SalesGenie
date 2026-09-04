@@ -1,0 +1,67 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "message_type": {
+      "type": "string",
+      "enum": [
+        "sales_inquiry",
+        "product_question",
+        "stock_question",
+        "complaint",
+        "spam",
+        "weekly_summary_request"
+      ]
+    },
+    "customer_name": { "type": ["string", "null"] },
+    "email": { "type": ["string", "null"] },
+    "company": { "type": ["string", "null"] },
+    "product_interest": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "budget_total": { "type": ["number", "null"] },
+    "budget_per_unit": { "type": ["number", "null"] },
+    "quantity": { "type": ["integer", "null"] },
+    "urgency": {
+      "type": ["string", "null"],
+      "enum": ["High", "Medium", "Low", null]
+    },
+    "deadline_text": { "type": ["string", "null"] },
+    "requirements": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "competitor_mentions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "lead_tier": {
+      "type": ["string", "null"],
+      "enum": ["Hot", "Warm", "Cold", null]
+    },
+    "missing_information": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "classification_reason": { "type": "string" }
+  },
+  "required": [
+    "message_type",
+    "customer_name",
+    "email",
+    "company",
+    "product_interest",
+    "budget_total",
+    "budget_per_unit",
+    "quantity",
+    "urgency",
+    "deadline_text",
+    "requirements",
+    "competitor_mentions",
+    "lead_tier",
+    "missing_information",
+    "classification_reason"
+  ]
+}
+

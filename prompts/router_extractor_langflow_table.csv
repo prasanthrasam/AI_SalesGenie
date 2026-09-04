@@ -1,0 +1,17 @@
+Name,Description,Type,As List
+message_type,"Exactly one: sales_inquiry, product_question, stock_question, complaint, spam, weekly_summary_request",str,false
+customer_name,"Explicit customer name; empty string if absent",str,false
+email,"Explicit email address; empty string if absent",str,false
+company,"Explicit company name; empty string if absent",str,false
+product_interest,"Explicit product names or categories",str,true
+budget_total,"Explicit total budget; use 0 if absent",float,false
+budget_per_unit,"Explicit or arithmetically derived per-unit budget; use 0 if absent",float,false
+quantity,"Explicit product quantity; use 0 if absent",int,false
+urgency,"High, Medium, Low, or Unknown",str,false
+deadline_text,"Deadline exactly as stated; empty string if absent",str,false
+requirements,"Explicit requirements such as finish, use, capacity, or delivery timing",str,true
+competitor_mentions,"Explicit competitor names",str,true
+lead_tier,"Hot, Warm, Cold only for sales_inquiry; empty string otherwise",str,false
+missing_information,"Important details still required",str,true
+classification_reason,"One concise sentence based only on the message",str,false
+

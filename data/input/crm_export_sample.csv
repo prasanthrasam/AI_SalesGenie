@@ -1,0 +1,8 @@
+lead_id,customer_name,email,company,lead_tier,product_interest,budget,urgency,source,date_received,status,assigned_to,notes
+L001,John Martinez,john.martinez@techcorp.com,TechCorp,Warm,Standing Desk,800,Medium,Email,2026-04-01,Open,Rep A,Home office setup
+L002,Maria Chen,procurement@bigcorp.com,BigCorp Industries,Hot,Office Chairs (bulk),5000,High,Email,2026-04-02,Quoted,Rep B,10 chairs - new office
+L003,Anonymous,random123@gmail.com,,Cold,Unknown,Unknown,Low,Email,2026-04-03,Needs Info,Unassigned,Vague inquiry
+L004,Sarah Kim,sarah.k@startupventures.io,Startup Ventures,Warm,Standing Desks (bulk),Unknown,Medium,Email,2026-04-04,Open,Rep A,Comparing with IKEA
+L005,James Wright,admin@downtownlawfirm.com,Downtown Law Partners,Hot,Conference Table,3000,Medium,Email,2026-04-05,Open,Rep C,12-person boardroom
+L006,Jessica Wong,jessica.wong@enterprise.com,Enterprise Solutions,Hot,Full Office Package,36000,High,Email,2026-04-06,In Progress,Rep B,30 workstations - 3 categories
+L007,Robert Chen,cfo@growthco.com,GrowthCo Industries,Hot,Full Office Package,50000,Medium,Email,2026-04-07,Open,Rep C,3 locations - volume pricing

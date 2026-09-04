@@ -1,0 +1,21 @@
+product_id,product_name,category,price,description,availability,material,dimensions
+P001,Walnut Executive Desk,Desk,1299.00,"Premium walnut wood executive desk with cable management and 2 built-in drawers. Classic design for home office or executive suite.",Out of Stock,Solid Walnut,72"W x 36"D x 30"H
+P002,Adjustable Standing Desk Pro,Desk,749.00,"Electric height-adjustable desk with memory presets. Dual motor for smooth transitions. Anti-collision technology.",In Stock,Bamboo Top / Steel Frame,60"W x 30"D x 24-50"H
+P003,Adjustable Standing Desk Basic,Desk,449.00,"Manual crank height-adjustable desk. Simple and reliable. Available in white and black frame.",In Stock,MDF Top / Steel Frame,48"W x 24"D x 28-46"H
+P004,Oak Executive Desk,Desk,899.00,"Solid oak executive desk with natural finish. 3 drawers and keyboard tray. Available in Natural Oak and Dark Walnut finish.",In Stock,Solid Oak,66"W x 30"D x 30"H
+P005,Compact Home Office Desk,Desk,349.00,"Space-saving desk for small home offices. Built-in shelf and cable organizer.",In Stock,Engineered Wood,42"W x 20"D x 30"H
+P006,Ergonomic Pro Chair,Chair,449.00,"Full mesh ergonomic chair with lumbar support, adjustable armrests, headrest, and tilt lock. 12-year warranty.",In Stock,Mesh / Aluminum,27"W x 27"D x 44-48"H
+P007,Ergonomic Task Chair,Chair,299.00,"Mid-range ergonomic chair with adjustable lumbar, armrests, and seat height. Breathable mesh back.",In Stock,Mesh / Nylon,25"W x 25"D x 38-42"H
+P008,Executive Leather Chair,Chair,599.00,"Premium leather executive chair with memory foam cushion. Chrome base. 360-degree swivel.",In Stock,Genuine Leather / Chrome,28"W x 30"D x 44-48"H
+P009,Basic Office Chair,Chair,149.00,"Simple padded office chair with armrests and adjustable height. Good for light use.",In Stock,Fabric / Plastic,22"W x 22"D x 34-38"H
+P010,Conference Table 8-Person,Table,1499.00,"Modern conference table seating 8. Cable management grommets. Scratch-resistant surface.",In Stock,Engineered Wood / Steel,96"W x 48"D x 30"H
+P011,Conference Table 12-Person,Table,2499.00,"Large boardroom conference table seating 12. Premium finish. Integrated power outlets.",In Stock,Solid Hardwood / Steel,144"W x 54"D x 30"H
+P012,Huddle Room Table,Table,549.00,"Small meeting table for 4-6 people. Round design for collaborative spaces.",In Stock,Laminate / Steel,48" diameter x 30"H
+P013,Standing Desk Mat,Accessory,79.00,"Anti-fatigue standing desk mat. Ergonomic contoured surface. Non-slip bottom.",In Stock,Polyurethane Foam,32"W x 20"D x 0.75"H
+P014,Monitor Arm Dual,Accessory,189.00,"Dual monitor arm clamp mount. Supports 2 monitors up to 32 inches. Full motion adjustable.",In Stock,Aluminum / Steel,Clamp fits up to 3.5" thick
+P015,Desk Organizer Set,Accessory,39.00,"3-piece desk organizer: pen holder, file sorter, and cable clip set. Walnut finish.",In Stock,Walnut Veneer,Various
+P016,Ergonomic Keyboard Tray,Accessory,129.00,"Under-desk keyboard tray with gel wrist rest. Adjustable height and tilt.",In Stock,Steel / Foam,26"W x 10"D
+P017,Privacy Panel Set,Accessory,199.00,"Desktop privacy panel for open office. Sound absorbing fabric. Set of 2.",In Stock,Acoustic Fabric / Aluminum,24"W x 18"H per panel
+P018,Bookshelf Modern 5-Tier,Storage,389.00,"5-tier open bookshelf. Minimalist steel frame with wood shelves.",In Stock,Engineered Wood / Steel,36"W x 12"D x 72"H
+P019,Filing Cabinet 3-Drawer,Storage,249.00,"Lockable 3-drawer filing cabinet on casters. Letter and legal size. Steel construction.",In Stock,Steel,15"W x 20"D x 28"H
+P020,Sit-Stand Desk Converter,Desk,279.00,"Place on existing desk to convert to standing desk. Adjustable height with gas spring. Holds monitor and keyboard.",In Stock,Steel / MDF,35"W x 23"D x 6-16"H

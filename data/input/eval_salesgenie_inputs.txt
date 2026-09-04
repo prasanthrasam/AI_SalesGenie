@@ -1,0 +1,16 @@
+SalesGenie - Baseline Test Dataset for Core Capabilities
+=============================================================
+Run each input through your SalesGenie pipeline.
+Check the output against the "Expected Output Must Contain" in the problem statement.
+
+T1: I need a standing desk under $800 for my home office, dark walnut finish. Email: john@corp.com
+T2: Hi, I need furniture.
+T3: Looking for 10 ergonomic office chairs for our new office, budget $5000 total. Need them by end of month. Contact: procurement@bigco.com
+T4: What colors does the oak desk come in?
+T5: We're comparing your standing desks with IKEA's. What makes yours better?
+T6: I want to buy something nice for under $50.
+T7: asdfjkl; spam spam buy now click here!!!
+T8: I need a conference table for 12 people. Budget is $3000. We are a law firm downtown. Email: admin@lawfirm.com
+T9: furniture please
+T10: Do you have the Walnut Executive Desk in stock? I saw it listed as out of stock on your website.
+T11: Generate weekly summary

@@ -1,0 +1,8 @@
+Name,Description,Type,As List
+recommendation_product_ids,"Zero to three exact product IDs from the catalog, aligned by position with all other recommendation lists",str,true
+recommendation_product_names,"Exact catalog product names aligned with recommendation_product_ids",str,true
+recommendation_prices,"Exact catalog prices aligned with recommendation_product_ids",float,true
+recommendation_availability,"Exact catalog availability values aligned with recommendation_product_ids",str,true
+recommendation_rationales,"Grounded rationale for each aligned recommended product",str,true
+response_text,"Concise customer-facing answer grounded only in the supplied catalog; ask clarifying questions when needed",str,false
+catalog_grounded,"True only when all included product facts are supported by the catalog",bool,false
