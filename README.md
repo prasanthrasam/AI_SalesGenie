@@ -40,7 +40,7 @@ The inquiry workflow uses a sequential pipeline with routing at extraction time.
 
 | Path | Contents |
 |---|---|
-| `langflow/` | Three exported Langflow flows and custom Python components |
+| `langflow/` | Two operational Langflow flows and their custom Python components |
 | `prompts/` | Versioned routing, recommendation, follow-up prompts, and schemas |
 | `data/input/` | Catalog, CRM sample, inquiries, and T1-T11 evaluation inputs |
 | `evaluation/` | Baseline results, extended-capability results, and Langfuse evidence |
@@ -51,6 +51,7 @@ The inquiry workflow uses a sequential pipeline with routing at extraction time.
 
 - [Business Requirements Document](docs/BRD_AI_SalesGenie.md) ([Word version](docs/BRD_AI_SalesGenie.docx))
 - [Product Requirements Document](docs/PRD_AI_SalesGenie.md) ([Word version](docs/PRD_AI_SalesGenie.docx))
+- [Operational workflow guide](docs/AI_SalesGenie_Workflow_Guide.docx)
 - [Observability and evaluation strategy](docs/observability_strategy.md)
 - [Baseline T1-T11 results](evaluation/baseline_results.md)
 - [Extended follow-up capability results](evaluation/extended_capability_results.md)
@@ -59,14 +60,13 @@ The inquiry workflow uses a sequential pipeline with routing at extraction time.
 ## Import and run
 
 1. Install and start Langflow.
-2. Import the required JSON flow from `langflow/`:
-   - `01_router_extractor.json`
+2. Import the required JSON flows from `langflow/`:
    - `02_catalog_recommender_followup.json`
    - `03_weekly_summary.json`
 3. Configure `OPENAI_API_KEY` as an environment variable or Langflow secret.
 4. Upload `data/input/product_catalog.csv` to the Catalog Recommender Read File component.
 5. Upload `data/input/crm_export_sample.csv` to the Weekly Summary Read File component.
-6. Open Playground and run an inquiry or the weekly-summary flow.
+6. Open Playground and run the inquiry-processing flow or the weekly-summary flow. The inquiry flow already includes routing, lead extraction, catalog recommendation, deterministic validation, and follow-up drafting.
 
 For Langfuse US tracing, configure project-scoped credentials outside source control:
 
@@ -103,6 +103,7 @@ See `evaluation/baseline_results.md` for limitations and detailed results. Costs
 - Python custom components
 - Langfuse
 - CSV catalog and CRM sample data
-- 
+
 ## Author
+
 Prasanth Rasam
