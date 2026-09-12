@@ -12,12 +12,12 @@
 - Imported the official ZIP resources: 15 inquiry emails, a 20-product catalog, a 7-row CRM sample, the T1-T11 evaluation inputs, and the reference problem statement.
 - Validated the source schemas. The catalog contains product ID, category, price, description, availability, material, and dimensions; the CRM sample defines the target lead record fields.
 - Identified routing cases beyond normal sales leads: product question, stock question, spam, and customer complaint.
-- Authored router/extractor prompt v1, a strict JSON schema, and the first Langflow canvas build guide.
+- Authored router/extractor prompt v1 and a strict JSON schema for the routing stage later embedded in the inquiry workflow.
 - Reviewed the initial Langflow canvas and corrected the design to use the model's Language Model output, Structured Output format instructions, an output-schema table, and a Parser before Chat Output.
 - Ran routing checks. Spam passed, but the product question was incorrectly labeled `Inquiry`. Diagnosed that the model node's System Message was not reliably propagated to Structured Output and restored Prompt Template as the explicit carrier for routing rules.
 - Retested T4 after routing rules were moved into Prompt Template. It correctly returned `product_question` with an empty lead tier; retained screenshot evidence and marked T4 passed pending Langfuse trace evidence.
-- Exported and validated `01_router_extractor.json`: six expected nodes, five edges, temperature 0, 11 schema rows, Stringify parser, and no raw OpenAI API key stored in the JSON.
-- Duplicated the flow for catalog recommendations and added Read File. Authored grounded recommendation prompt v1, schema additions, connection instructions, and initial catalog validation checks.
+- Validated the initial router/extractor prototype: six expected nodes, five edges, temperature 0, 11 schema rows, Stringify parser, and no raw OpenAI API key stored in the export.
+- Extended the prototype into the operational catalog recommendation flow and added Read File. Authored grounded recommendation prompt v1, schema additions, connection instructions, and initial catalog validation checks.
 - First catalog run reached Structured Output but returned `No structured output returned`. Simplified nested recommendation dictionaries into five aligned typed lists to improve schema reliability.
 - First successful catalog-shaped T1 response failed grounding checks: it included P004 at $899 despite an $800 limit and falsely attributed a dark-walnut option to P002. It also incorrectly set `catalog_grounded` true. Strengthened hard-budget, same-row feature attribution, converter labeling, and pre-output validation rules.
 - Retest after stronger prompt repeated the same T1 violations. Decided prompt-only enforcement was insufficient and authored a deterministic Catalog Guard custom component to validate product IDs, budget, availability, and rebuild product claims from exact catalog rows.
@@ -56,6 +56,12 @@
 - Saved five Langfuse evidence screenshots under `evaluation/evidence/langfuse` and added an index describing the tracing overview, router usage, Catalog Guard input/output, and follow-up model usage.
 - Captured Langfuse trace `39f71fe4203031035fa45c82b7101c92` for T7. The deterministic guard returned `message_type: spam`, empty recommendation lists, and an explicit no-sales-action response.
 - Created formal BRD and PRD deliverables in Word and GitHub-readable Markdown formats, updated the repository README with architecture and run instructions, and linked representative Langfuse trace `2a3d1e25806c3f1bab8d009032bc87dd` to T1.
+
+## 2026-09-12
+
+- Retired the standalone routing prototype because the operational catalog recommender and follow-up flow already contains the same behavior.
+- Consolidated the repository around two operational flows: inquiry processing and weekly sales summary.
+- Updated the README, build guide, workflow handout, presentation, and package references to match the two-flow architecture.
 
 ## Logging convention
 
